@@ -40,7 +40,7 @@ Berikut adalah cara yang benar untuk menjalankan proyek ini di terminal PowerShe
 
 -----
 
-## 🔬 Anatomi Perubahan (Analisis Mendalam)
+## 🔬 Anatomi Proyek (Analisis Mendalam)
 
 Kita sekarang punya struktur yang rapi:
 
