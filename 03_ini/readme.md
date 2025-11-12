@@ -22,7 +22,6 @@ Cara kita menjalankan aplikasi ini menggunakan `pserve` dan file `.ini`.
 1.  **Aktifkan venv (jika belum):**
 
     ```powershell
-    # Asumsi Anda ada di folder proyek
     ..\venv\Scripts\Activate.ps1
     ```
 
