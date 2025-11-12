@@ -4,7 +4,7 @@ Tutorial ini berfokus pada cara mengubah skrip Python tunggal menjadi struktur p
 
 -----
 
-## 🎯 Objektif (Tujuan Utama)
+## Objektif (Tujuan Utama)
 
   * **Skalabilitas:** Mempersiapkan proyek agar bisa jadi besar. Kita nggak mungkin menyimpan 50 *view* dalam satu file, kan? Ini adalah fondasi untuk memecah file nanti.
   * **Standarisasi:** Ini adalah cara "resmi" developer Python menyusun proyek.
@@ -12,7 +12,7 @@ Tutorial ini berfokus pada cara mengubah skrip Python tunggal menjadi struktur p
 
 -----
 
-## 🚀 Cara Menjalankan (Windows)
+## Cara Menjalankan (Windows)
 
 Berikut adalah cara yang benar untuk menjalankan proyek ini di terminal PowerShell (asumsi Anda ada di folder proyek utama).
 
@@ -40,7 +40,7 @@ Berikut adalah cara yang benar untuk menjalankan proyek ini di terminal PowerShe
 
 -----
 
-## 🔬 Anatomi Proyek
+## Anatomi Proyek
 
 Kita sekarang punya struktur yang rapi:
 
@@ -116,7 +116,7 @@ Ini hanyalah **langkah transisi**. Tutorial ini ingin menunjukkan satu perubahan
 
 -----
 
-## 🏁 Kesimpulan Analisis
+## Kesimpulan Analisis
 
 Langkah ini adalah fondasi mutlak untuk membangun aplikasi yang sesungguhnya.
 
@@ -124,6 +124,8 @@ Dengan beralih ke "proyek terstruktur" (package), keuntungan terbesarnya adalah 
 
 Perintah pip install -e . adalah workflow utama yang akan kita gunakan terus-menerus selama pengembangan.
 
-Tampilan di localhost :
+---
+
+## Tampilan di localhost :
 
 ![Tampilan localhost](gambar2.png)

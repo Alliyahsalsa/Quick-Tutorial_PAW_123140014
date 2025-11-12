@@ -4,7 +4,7 @@ Tutorial ini adalah langkah pertama untuk memahami *framework* Pyramid. Tujuanny
 
 Ini adalah pendekatan "microframework" yang ditawarkan Pyramid.
 
-## 🚀 Cara Menjalankan (Windows)
+## Cara Menjalankan (Windows)
 
 Langkah-langkah ini ditulis untuk dieksekusi dari dalam terminal PowerShell dari folder `01_hello_world`.
 
@@ -39,7 +39,7 @@ Buka browser Anda dan kunjungi `http://localhost:6543/`. Anda akan melihat halam
 
 ---
 
-## 🔬 Analisis Percobaan
+## Analisis Percobaan
 
 ### Tujuan Utama Pembelajaran
 
@@ -138,10 +138,12 @@ Ini adalah bagian terpenting dari tutorial ini.
     4.  Pyramid mengeksekusi *view*, yang mengembalikan **Response**.
   * **Konfigurasi Imperatif:** Kita secara aktif *memerintahkan* `config` untuk melakukan sesuatu (`.add_route()`, `.add_view()`). Ini adalah ciri khas Pyramid yang membuatnya sangat fleksibel.
 
-### Kesimpulan Analisis
+## Kesimpulan Analisis
 
 Percobaan "Hello World" ini sangat padat. Ini menunjukkan bahwa Pyramid dapat bertindak sebagai *microframework* tetapi sudah memperkenalkan pola desain utamanya: **konfigurasi eksplisit dan pemisahan yang jelas antara rute, *view*, dan server.**
 
-Tampilan di localhost :
+---
+
+## Tampilan di localhost :
 
 ![Tampilan localhost](gambar1.png) 

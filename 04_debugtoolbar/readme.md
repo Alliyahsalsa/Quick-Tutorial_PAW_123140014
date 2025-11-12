@@ -4,7 +4,7 @@ Dokumen ini menganalisis cara menginstal dan mengonfigurasi `pyramid_debugtoolba
 
 -----
 
-## 🎯 Objektif (Tujuan Utama)
+## Objektif (Tujuan Utama)
 
   * **Produktifitas:** Menambahkan alat bantu *debugging* yang canggih langsung di *browser*.
   * **Konsep Add-on:** Memahami bagaimana Pyramid dapat diperluas fungsinya menggunakan paket-paket eksternal.
@@ -12,7 +12,7 @@ Dokumen ini menganalisis cara menginstal dan mengonfigurasi `pyramid_debugtoolba
 
 -----
 
-## 🚀 Cara Menjalankan (Windows)
+## Cara Menjalankan (Windows)
 
 1.  **Aktifkan venv (jika belum):**
 
@@ -41,7 +41,7 @@ Dokumen ini menganalisis cara menginstal dan mengonfigurasi `pyramid_debugtoolba
 
 -----
 
-## 🔬 Anatomi Proyek
+## Anatomi Proyek
 
 Ada dua file kunci yang kita ubah, dan satu perintah instalasi baru. Mari kita bedah *kenapa*.
 
@@ -107,7 +107,7 @@ pyramid.includes =
 
 -----
 
-## 🏁 Kesimpulan Analisis
+## Kesimpulan Analisis
 
 `pyramid_debugtoolbar` adalah contoh sempurna dari **arsitektur Pyramid yang bisa diperluas**.
 
@@ -120,6 +120,8 @@ Yang paling penting, kita belajar bahwa meng-install *add-on* adalah proses dua 
 
 Manfaat langsungnya adalah *tool debugging* yang sangat kuat yang muncul langsung di *browser* kita, yang puncaknya adalah **Traceback Interaktif**—jika aplikasi *crash*, kita mendapatkan laporan *error* canggih di *browser* (bukan hanya di terminal) yang memungkinkan kita memeriksa variabel secara *real-time*.
 
-Tampilan di localhost :
+---
+
+## Tampilan di localhost :
 
 ![Tampilan localhost](gambar4.png)

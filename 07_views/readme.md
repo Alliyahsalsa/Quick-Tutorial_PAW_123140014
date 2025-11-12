@@ -6,7 +6,7 @@ Ini adalah langkah fundamental untuk **skalabilitas**. Saat aplikasi tumbuh besa
 
 -----
 
-## 🎯 Objektif (Tujuan Utama)
+## Objektif (Tujuan Utama)
 
   * **Pemisahan Wewenang (Scalability):** Memindahkan logika *view* keluar dari `__init__.py` ke file `tutorial/views.py` agar proyek lebih rapi dan mudah dikelola.
   * **Konfigurasi Deklaratif:** Memperkenalkan dekorator `@view_config` sebagai cara "pasif" bagi *view* untuk "mengumumkan" dirinya sendiri ke *framework*.
@@ -14,7 +14,7 @@ Ini adalah langkah fundamental untuk **skalabilitas**. Saat aplikasi tumbuh besa
 
 -----
 
-## 🚀 Cara Menjalankan
+## Cara Menjalankan
 
 Proyek ini dijalankan menggunakan `pserve` dan diuji menggunakan `pytest`.
 
@@ -47,7 +47,7 @@ Proyek ini dijalankan menggunakan `pserve` dan diuji menggunakan `pytest`.
 
 -----
 
-## 🔬 Anatomi Proyek
+## Anatomi Proyek
 
 Mari kita bedah perubahan di setiap file dan *mengapa* kita melakukannya.
 
@@ -129,13 +129,16 @@ Tes kita gagal jika kita tidak memperbaruinya, karena lokasi `hello_world` telah
 
 -----
 
-## 🏁 Kesimpulan Analisis
+## Kesimpulan Analisis
 
 Ini adalah langkah penting untuk "mendewasakan" aplikasi kita.
 
 Dengan memindahkan *view* ke file terpisah dan menggunakan `config.scan()`, kita membuat proyek yang **jauh lebih mudah untuk dikembangkan**. *File* `__init__.py` kita sekarang bersih dan stabil. Jika kita ingin menambah 10 halaman baru, kita hanya perlu bekerja di dalam `views.py` (menambah fungsi dan dekorator) tanpa perlu menyentuh `__init__.py` lagi.
 
-Tampilan di localhost :
+---
+
+## Tampilan di localhost :
+
 - Tampilan "Visit hello"
 <img width="926" height="464" alt="Screenshot 2025-11-13 003210" src="https://github.com/user-attachments/assets/2726ddba-345e-48fe-9ef5-79faa03ad1d0" />
 

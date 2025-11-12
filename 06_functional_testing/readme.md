@@ -6,7 +6,7 @@ Ini adalah pengujian "black box": kita tidak peduli dengan logika internal; kita
 
 -----
 
-## 🎯 Objektif (Tujuan Utama)
+## Objektif (Tujuan Utama)
 
   * **Validasi Alur Kerja:** Memastikan semua komponen (rute, *view*, konfigurasi) terhubung dan bekerja sama dengan benar.
   * **Simulasi *Browser*:** Menggunakan `webtest` untuk "memalsukan" *request* HTTP (seperti `GET` dan `POST`) ke aplikasi kita.
@@ -14,7 +14,7 @@ Ini adalah pengujian "black box": kita tidak peduli dengan logika internal; kita
 
 -----
 
-## 🚀 Cara Menjalankan Tes (Windows)
+## Cara Menjalankan Tes (Windows)
 
 1.  **Aktifkan venv (jika belum):**
 
@@ -40,7 +40,7 @@ Ini adalah pengujian "black box": kita tidak peduli dengan logika internal; kita
 
 -----
 
-## 🔬 Anatomi Proyek
+## Anatomi Proyek
 
 Mari kita bedah tiga komponen utama yang membuat pengujian fungsional ini bekerja.
 
@@ -127,7 +127,7 @@ def test_root(testapp):
 
 -----
 
-## 🏁 Kesimpulan Analisis
+## Kesimpulan Analisis
 
 **Kenapa ini jauh lebih baik dari *Unit Test*?**
 
@@ -138,6 +138,8 @@ def test_root(testapp):
 
 *Functional test* ini menguji **keseluruhan rantai** dalam satu kali jalan. Jika tes ini lulus, kita 100% yakin bahwa jika seseorang membuka `http://localhost:6543/` di *browser* asli, mereka akan melihat "Hello World\!".
 
-Tampilan di localhost :
+---
+
+## Tampilan di localhost :
 
 ![Tampilan localhost](gambar6.png)

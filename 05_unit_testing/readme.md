@@ -6,7 +6,7 @@ Kita akan menggunakan `pytest`, *test runner* paling populer di ekosistem Python
 
 -----
 
-## 🎯 Objektif (Tujuan Utama)
+## Objektif (Tujuan Utama)
 
   * **Kualitas Kode:** Menulis tes otomatis untuk memvalidasi logika aplikasi kita.
   * **Membedakan Jenis Tes:** Memahami perbedaan krusial antara *Unit Test* (menguji satu fungsi) dan *Functional Test* (menguji keseluruhan alur aplikasi).
@@ -15,7 +15,7 @@ Kita akan menggunakan `pytest`, *test runner* paling populer di ekosistem Python
 
 -----
 
-## 🚀 Cara Menjalankan Tes (Windows)
+## Cara Menjalankan Tes (Windows)
 
 1.  **Aktifkan venv (jika belum):**
 
@@ -43,7 +43,7 @@ Kita akan menggunakan `pytest`, *test runner* paling populer di ekosistem Python
 
 -----
 
-## 🔬 Anatomi Tes
+## Anatomi Tes
 
 ### 1\. Persiapan: `setup.py` dan Folder `tests/`
 
@@ -59,7 +59,6 @@ Sebelum bisa menguji, kita perlu dua hal:
     ]
 
     setup(
-        # ... (name, install_requires, entry_points) ...
         extras_require={
             'dev': dev_requires,  
             'test': test_requires, 
@@ -132,7 +131,7 @@ def test_root(testapp):
 
 -----
 
-## 🏁 Kesimpulan Analisis
+## Kesimpulan Analisis
 
 Kita sekarang memiliki dua jaring pengaman untuk aplikasi kita:
 
@@ -141,6 +140,8 @@ Kita sekarang memiliki dua jaring pengaman untuk aplikasi kita:
 
 Pyramid (dengan pola *app factory*-nya) dan `pytest` (dengan *fixtures*-nya) membuat kedua jenis pengujian ini sangat mudah diatur dan dijalankan.
 
-Tampilan di localhost :
+---
+
+## Tampilan di localhost :
 
 ![Tampilan localhost](gambar5.png)

@@ -6,7 +6,7 @@ Inti dari pendekatan ini adalah **memisahkan Kode (logika) dari Konfigurasi (pen
 
 -----
 
-## 🎯 Objektif (Tujuan Utama)
+## Objektif (Tujuan Utama)
 
   * **Pemisahan Konfigurasi:** Memindahkan pengaturan "yang bisa berubah" (seperti port server) keluar dari kode Python ke file `.ini`.
   * **Standarisasi Server:** Berhenti menjalankan server secara manual. Kita akan menggunakan `pserve`, *runner* standar Pyramid yang tahu cara membaca file `.ini`.
@@ -15,7 +15,7 @@ Inti dari pendekatan ini adalah **memisahkan Kode (logika) dari Konfigurasi (pen
 
 -----
 
-## 🚀 Cara Menjalankan (Windows)
+## Cara Menjalankan (Windows)
 
 Cara kita menjalankan aplikasi ini menggunakan `pserve` dan file `.ini`.
 
@@ -50,7 +50,7 @@ Cara kita menjalankan aplikasi ini menggunakan `pserve` dan file `.ini`.
 
 -----
 
-## 🔬 Anatomi Proyek
+## Anatomi Proyek
 
 Mari kita bedah tiga file utama yang membentuk proyek ini dan kenapa mereka penting.
 
@@ -85,10 +85,8 @@ port = 6543
 Bagaimana `pserve` tahu *entry point* `main` itu apa? Jawabannya ada di `setup.py`. Kita menambahkan bagian `entry_points`.
 
 ```python
-# ... (kode impor) ...
 setup(
     name='tutorial',
-    # ... (install_requires) ...
     entry_points={
         'paste.app_factory': [
             'main = tutorial:main',
@@ -133,12 +131,14 @@ def hello_world(request):
 
 -----
 
-## 🏁 Kesimpulan Analisis
+## Kesimpulan Analisis
 
 Langkah ini adalah lompatan besar dari "skrip" menjadi "aplikasi".
 
 Dengan memisahkan konfigurasi ke `.ini`, kita membuat aplikasi kita **fleksibel** dan siap untuk *deployment*. Dengan menggunakan `pserve` dan *entry points*, kita sekarang menggunakan rangkaian alat standar Pyramid, yang membuat pengembangan, *debugging* (dengan `--reload`), dan *deployment* jauh lebih mudah.
 
-Tampilan di localhost :
+---
+
+## Tampilan di localhost :
 
 ![Tampilan localhost](gambar3.png)
