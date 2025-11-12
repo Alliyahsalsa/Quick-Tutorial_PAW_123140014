@@ -1,4 +1,4 @@
-# Percobaan 1: Aplikasi File Tunggal (Hello World)
+# Aplikasi File Tunggal (Hello World)
 
 Tutorial ini adalah langkah pertama untuk memahami *framework* Pyramid. Tujuannya bukan hanya menampilkan "Hello World!", tetapi untuk memperkenalkan konsep-konsep paling fundamental dari Pyramid dalam unit terkecil yang mungkin: **satu file Python**.
 
@@ -6,7 +6,7 @@ Ini adalah pendekatan "microframework" yang ditawarkan Pyramid.
 
 ## 🚀 Cara Menjalankan (Windows)
 
-Langkah-langkah ini ditulis untuk dieksekusi dari dalam terminal PowerShell (seperti di VS Code) dari folder `01_hello_world`.
+Langkah-langkah ini ditulis untuk dieksekusi dari dalam terminal PowerShell dari folder `01_hello_world`.
 
 1.  **Aktifkan Virtual Environment:**
     ```powershell
@@ -75,7 +75,7 @@ if __name__ == '__main__':
 ### 1\. Impor (Baris 1-3)
 
   * `waitress (serve)`: Ini adalah **WSGI Server**. Tugasnya adalah "mendengarkan" koneksi HTTP (misalnya di port 6543) dan meneruskan *request* ke aplikasi Python kita. Pyramid tidak memiliki server bawaan untuk produksi, jadi kita menggunakan `waitress`.
-  * `pyramid.config (Configurator)`: Ini adalah **otak** dari aplikasi Pyramid Anda. Ini adalah objek yang Anda gunakan untuk "merakit" aplikasi Anda—mendaftarkan rute, *view*, *template*, dll.
+  * `pyramid.config (Configurator)`: Ini adalah **otak** dari aplikasi Pyramid Anda. Ini adalah objek yang Anda gunakan untuk "merakit" aplikasi Anda, mendaftarkan rute, *view*, *template*, dll.
   * `pyramid.response (Response)`: Ini adalah objek standar yang *harus* dikembalikan oleh sebuah *view*. Pyramid menangani objek ini dan mengubahnya menjadi respons HTTP yang sebenarnya untuk dikirim ke browser.
 
 ### 2\. *View Callable* (Baris 6-8)
