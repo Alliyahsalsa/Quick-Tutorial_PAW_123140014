@@ -138,6 +138,8 @@ Ini adalah bagian terpenting dari tutorial ini.
     4.  Pyramid mengeksekusi *view*, yang mengembalikan **Response**.
   * **Konfigurasi Imperatif:** Kita secara aktif *memerintahkan* `config` untuk melakukan sesuatu (`.add_route()`, `.add_view()`). Ini adalah ciri khas Pyramid yang membuatnya sangat fleksibel.
 
+---
+
 ## Kesimpulan Analisis
 
 Percobaan "Hello World" ini sangat padat. Ini menunjukkan bahwa Pyramid dapat bertindak sebagai *microframework* tetapi sudah memperkenalkan pola desain utamanya: **konfigurasi eksplisit dan pemisahan yang jelas antara rute, *view*, dan server.**
