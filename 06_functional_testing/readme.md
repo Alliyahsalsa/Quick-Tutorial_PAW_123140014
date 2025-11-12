@@ -40,7 +40,7 @@ Ini adalah pengujian "black box": kita tidak peduli dengan logika internal; kita
 
 -----
 
-## 🔬 Anatomi Perubahan (Analisis Mendalam)
+## 🔬 Anatomi Proyek
 
 Mari kita bedah tiga komponen utama yang membuat pengujian fungsional ini bekerja.
 

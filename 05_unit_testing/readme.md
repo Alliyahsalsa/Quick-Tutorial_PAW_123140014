@@ -43,7 +43,7 @@ Kita akan menggunakan `pytest`, *test runner* paling populer di ekosistem Python
 
 -----
 
-## 🔬 Anatomi Tes (Analisis Mendalam)
+## 🔬 Anatomi Tes
 
 ### 1\. Persiapan: `setup.py` dan Folder `tests/`
 

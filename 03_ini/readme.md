@@ -50,7 +50,7 @@ Cara kita menjalankan aplikasi ini menggunakan `pserve` dan file `.ini`.
 
 -----
 
-## 🔬 Anatomi Proyek (Analisis Mendalam)
+## 🔬 Anatomi Proyek
 
 Mari kita bedah tiga file utama yang membentuk proyek ini dan kenapa mereka penting.
 

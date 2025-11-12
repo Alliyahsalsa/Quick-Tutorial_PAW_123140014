@@ -41,7 +41,7 @@ Dokumen ini menganalisis cara menginstal dan mengonfigurasi `pyramid_debugtoolba
 
 -----
 
-## 🔬 Anatomi Perubahan (Analisis Mendalam)
+## 🔬 Anatomi Proyek
 
 Ada dua file kunci yang kita ubah, dan satu perintah instalasi baru. Mari kita bedah *kenapa*.
 
