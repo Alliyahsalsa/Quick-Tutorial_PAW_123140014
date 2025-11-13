@@ -27,19 +27,22 @@ Install Dependensi (jika ada perubahan):
 (venv) PS C:\...> pip install -e ".[test]"
 ```
 
+Jalankan Tes:
+
+```powershell
+(venv) PS C:\...> pytest tutorial/tests.py
+```
+
 Jalankan Aplikasi:
 
 ```powershell
 (venv) PS C:\...> pserve development.ini --reload
 ```
 
-Buka [http://localhost:6543/hello/NamaAnda](http://localhost:6543/hello/NamaAnda) di browser Anda.
-
-Jalankan Tes:
-
-```powershell
-(venv) PS C:\...> pytest tutorial/tests.py
-```
+Buka :
+- http://localhost:6543/ → Otomatis redirect ke /plain
+- http://localhost:6543/plain → Tampil: "URL ... with name: No Name Provided"
+- http://localhost:6543/plain?name=alice → Tampil: "URL ... with name: alice"
 
 ---
 
@@ -100,7 +103,7 @@ Saat rute `{name}` dicocokkan, Pyramid secara otomatis menempatkan nilai dari UR
 
 ---
 
-### 3. tutorial/templates/hello.pt (Template Baru)
+### 3. tutorial/templates/hello.pt 
 
 Kita membuat template baru yang mirip, tetapi mungkin sedikit berbeda untuk view baru ini.
 
@@ -184,3 +187,9 @@ Kita juga membuktikan bahwa kita dapat menguji perilaku dinamis ini secara menye
 ---
 
 ## Tampilan di localhost :
+
+- Tampilan "URL ... with name: No Name Provided"
+<img width="910" height="371" alt="Screenshot 2025-11-13 094328" src="https://github.com/user-attachments/assets/1a63cf6a-2e0b-499d-a40e-5290f701bf24" />
+
+- Tampilan "URL ... with name: alice"
+<img width="898" height="357" alt="Screenshot 2025-11-13 094404" src="https://github.com/user-attachments/assets/98f71e2e-9d7b-4cf4-95d1-fb7ed585d9b2" />
