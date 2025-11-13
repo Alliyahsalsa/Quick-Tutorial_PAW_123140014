@@ -14,7 +14,7 @@ Dokumen ini menganalisis refactoring (penataan ulang) kode dari view berbasis fu
 
 ---
 
-## 🚀 Cara Menjalankan
+## Cara Menjalankan
 
 **Aktifkan venv (jika belum):**
 ```bash
