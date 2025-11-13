@@ -186,3 +186,5 @@ Hal ini memungkinkan kita untuk fokus pada **logika bisnis view (menyediakan dat
 ---
 
 ## Tampilan di localhost :
+
+<img width="816" height="321" alt="Screenshot 2025-11-13 215701" src="https://github.com/user-attachments/assets/77edf3e9-e321-442c-abd8-e0b1f186fd0e" />
