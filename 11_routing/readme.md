@@ -24,7 +24,6 @@ Solusinya adalah **Pemisahan Wewenang**:
 
 Aktifkan venv (jika belum):
 ```powershell
-# Asumsi Anda ada di folder proyek
 ..\venv\Scripts\Activate.ps1
 ````
 
@@ -90,7 +89,7 @@ def main(global_config, **settings):
         
         # 'add_route' HILANG DARI SINI
         
-        # INI YANG BARU: mendelegasikan ke file routes.py
+        # mendelegasikan ke file routes.py
         config.include('.routes')
         
         config.scan('.views')
@@ -114,7 +113,6 @@ View kita sekarang harus menghasilkan URL secara dinamis, bukan menuliskannya se
 
     @view_config(route_name='home', renderer='tutorial:templates/home.pt')
     def home(self):
-        # INI YANG BARU:
         # Kita panggil NAMA rute 'hello', bukan URL '/howdy'
         hello_url = self.request.route_url('hello')
         
@@ -139,11 +137,6 @@ Template kita sekarang menjadi "lebih bodoh" dan hanya me-render data yang diber
 ```html
 <!-- File: tutorial/templates/home.pt -->
 ...
-    <!-- KODE LAMA (Rapuh):
-    <p>Visit <a href="/howdy">hello</a></p> 
-    -->
-    
-    <!-- KODE BARU (Robust): -->
     <p>Visit <a href="${hello_url}">hello</a></p>
 ...
 ```
@@ -167,7 +160,7 @@ class TutorialViewTests(unittest.TestCase):
         # Setup standar
         self.config = testing.setUp()
         
-        # INI YANG BARU: "Ajari" lingkungan tes kita
+        # "Ajari" lingkungan tes kita
         # tentang rute-rute yang ada di aplikasi.
         self.config.include('tutorial.routes') 
 
