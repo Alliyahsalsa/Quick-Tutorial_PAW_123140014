@@ -46,7 +46,7 @@ Buka :
 
 ---
 
-## Anatomi Proyek (Analisis Mendalam)
+## Anatomi Proyek 
 
 ### 1. tutorial/**init**.py (Rute Dinamis)
 
