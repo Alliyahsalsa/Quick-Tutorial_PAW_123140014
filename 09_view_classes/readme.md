@@ -192,8 +192,12 @@ Beralih ke View Classes adalah langkah penting untuk skalabilitas. Ini memungkin
 * Mengelompokkan view yang serupa secara logis.
 * Menerapkan prinsip DRY (Don't Repeat Yourself) dengan berbagi state (seperti self.request atau self.user) melalui **init**.
 
+---
+
 ## Tampilan di localhost :
 
 - Tampilan "Hi Home View"
+<img width="868" height="357" alt="Screenshot 2025-11-13 090716" src="https://github.com/user-attachments/assets/d702db71-299c-4cf0-b679-48ff5ed840c7" />
 
 - Tampilan "Hi Hello View"
+<img width="923" height="375" alt="Screenshot 2025-11-13 090735" src="https://github.com/user-attachments/assets/e13b284b-d8fe-4cb2-bed0-ba43d93c3759" />
