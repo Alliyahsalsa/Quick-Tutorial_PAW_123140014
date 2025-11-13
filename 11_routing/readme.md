@@ -51,7 +51,7 @@ Jalankan Tes:
 
 ---
 
-## Anatomi Proyek (Analisis Mendalam)
+## Anatomi Proyek 
 
 ### 1. File Baru: tutorial/routes.py (Pusat Kendali Rute)
 
