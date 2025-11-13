@@ -43,7 +43,7 @@ Jalankan Tes:
 
 ---
 
-## Anatomi Proyek (Analisis Mendalam)
+## Anatomi Proyek 
 
 ### 1. setup.py (Dependensi Inti Baru)
 
