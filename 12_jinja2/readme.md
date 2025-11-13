@@ -211,3 +211,5 @@ Pyramid mendukung kedua pola ini, memungkinkan developer memilih pendekatan yang
 ---
 
 ## Tampilan di localhost :
+
+<img width="705" height="334" alt="Screenshot 2025-11-13 192718" src="https://github.com/user-attachments/assets/4ffd8ccb-f42c-4821-9bc4-fe5272766672" />
