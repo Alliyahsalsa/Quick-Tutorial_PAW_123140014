@@ -187,4 +187,3 @@ Tugas view menjadi lebih sederhana (hanya menyiapkan data), unit test kita menja
 
 - Tampilan "Hi Hello View"
 <img width="897" height="338" alt="Screenshot 2025-11-13 020520" src="https://github.com/user-attachments/assets/d8fbc21c-f8d9-4bae-a281-c9d367a6a048" />
-
