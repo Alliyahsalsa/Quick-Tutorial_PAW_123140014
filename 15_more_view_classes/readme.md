@@ -199,3 +199,10 @@ Dengan mengubah views.py (file) menjadi views/ (paket), dan mengandalkan kekuata
 ---
 
 ## Tampilan di localhost :
+
+- Tampilan Welcome, jane doe
+<img width="766" height="411" alt="Screenshot 2025-11-13 222727" src="https://github.com/user-attachments/assets/49f965fb-42be-4fc3-906c-fd58fda9a389" />
+
+- Tampilan Submitted
+<img width="770" height="392" alt="Screenshot 2025-11-13 222751" src="https://github.com/user-attachments/assets/06f7ec5f-9649-4550-9069-d31373b6dc6c" />
+
